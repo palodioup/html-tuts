@@ -1,0 +1,58 @@
+/* body styling */
+body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: rgb(113, 113, 248);
+}
+
+/* header */
+
+header {
+   height: 150px;
+   width: 100%;
+   color: white;
+}
+
+.header_ul {
+      display: flex;
+      margin-left: 850px;
+      text-indent: 40px;
+      list-style-type: none;
+}
+
+.header_ul span li {
+      margin-left: 850px;
+}
+
+.header_intro {
+    text-align: center;
+}
+
+.text_about_navbar {
+      text-align: center;
+}
+
+.sections {
+      list-style: none;
+}
+
+.food {
+      text-align: center;
+      text-decoration: underline;
+      color: rgb(252, 242, 242);
+}
+
+.food_two {
+      list-style-type: none;
+      color: rgb(252, 242, 242);
+}
+
+.social_media {
+      text-align: center;
+      text-decoration: underline;
+      color: rgb(252, 242, 242);
+}
+
+.social_media_two {
+      list-style-type: none;
+      color: rgb(252, 242, 242);
+}

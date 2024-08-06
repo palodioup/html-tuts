@@ -1,0 +1,307 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ul {
+  box-shadow: 1px 1px 8px black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: darkslategray;
+  display: flex;
+  list-style-type: none;
+  text-indent: 40px;
+  text-align: right;
+  /* margin-left: 45px;  */
+}
+
+.ul li {
+  color: white;
+}
+
+.ul span li:hover {
+  color: white;
+}
+
+.ul span li {
+  color: white;
+  padding-right: 200px;
+}
+
+.ul li:hover {
+  color: peachpuff;
+  cursor: pointer;
+}
+
+.login_button {
+  background-color: rgb(36, 36, 153);
+  color: peachpuff;
+  border: 2px peachpuff solid;
+  border-radius: 20px;
+  padding: 7px;
+}
+
+.login_button:hover {
+  background-color: peachpuff;
+  color: white;
+  border: 2px peachpuff solid;
+  border-radius: 20px;
+  padding: 7px;
+}
+
+main {
+  padding-top: 50px;
+  background-color: darkslategray;
+  padding-left: 20px;
+}
+
+main ul {
+  display: flex;
+  list-style-type: none;
+  padding-top: 40px;
+  text-indent: 10px;
+}
+
+.introtext_one {
+  color: white;
+}
+
+.introtext_two {
+  color: white;
+}
+
+.introtext_three {
+  color: white;
+  padding-bottom: 20px;
+}
+
+.ourstory_button {
+  background-color: rgb(252, 162, 84);
+  color: rgb(82, 82, 82);
+  border-radius: 35px;
+  width: 25%;
+  height: 50px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.becomeamember_text {
+  color: white;
+}
+
+.becomeamember_text:hover {
+  color: peachpuff;
+  cursor: pointer;
+}
+
+.video {
+  margin-right: 15px;
+  border-radius: 20px;
+}
+
+.about_tiya_text_intro {
+  color: white;
+  padding-bottom: 15px;
+}
+
+.about_tiya_text {
+  padding-top: 60px;
+  text-align: center;
+  color: white;
+}
+
+.about_the_webpage {
+  color: rgb(163, 163, 163);
+  padding-bottom: 15px;
+}
+
+.about_the_webpage_two {
+  color: rgb(163, 163, 163);
+}
+
+.get_our_mewsletter_text {
+  margin-left: 10px;
+}
+
+.lorem {
+  margin-left: 10px;
+}
+
+.get_our_newsletter {
+  height: 250px;
+  width: 450px;
+  border-radius: 4px;
+  color: white;
+}
+
+.get_our_news {
+  display: flex;
+}
+
+.email_address_button {
+  border-radius: 15px;
+  height: 50px;
+  width: 400px;
+  border: 0px solid;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.suscribe_button {
+  background-color: peachpuff;
+  border-radius: 10px;
+  color: white;
+  border: 0px solid;
+  padding: 7px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.membership {
+  text-align: center;
+  color: white;
+}
+
+.join_text {
+  color: white;
+}
+
+.membership_box {
+  height: 400px;
+  width: 300px;
+  border-radius: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.become_a_member_text {
+  color: white;
+  text-align: center;
+}
+
+.full_name_box {
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 5px;
+  margin-top: 10px;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 310px;
+  height: 30px;
+}
+
+.full_name_box:hover {
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 5px;
+  border: 2px black solid;
+  padding-right: 310px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  height: 30px;
+}
+
+.email_box {
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 5px;
+  width: 200%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  height: 30px;
+}
+
+.email_box:hover {
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 5px;
+  border: 2px black solid;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  height: 30px;
+}
+
+.comments_box {
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom: 75px;
+  margin-left: 5px;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 310px;
+  height: 35px;
+}
+
+.submit_button {
+  color: rgb(107, 107, 107);
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(253, 162, 83);
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 40px;
+}
+
+.submit_button:hover {
+  color: rgb(107, 107, 107);
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(253, 162, 83);
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.last_sub-heading_intro {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.why_you_should_join_our_community_text {
+  color: white;
+  text-align: center;
+  padding-bottom: 65px;
+  padding-top: 20px;
+}
+
+.enquires {
+  color: white;
+  text-align: center;
+  padding-bottom: 45px;
+  padding-top: 20px;
+  text-decoration: underline;
+}
+
+.enquires_box {
+  display: flex;
+  color: white;
+}
+
+.about_the_enquires {
+  color: white;
+}
+
+.footer {
+  background-color: lightslategray;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
